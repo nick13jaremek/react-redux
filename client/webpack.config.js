@@ -11,7 +11,11 @@ module.exports = {
       test: /\.jsx?/,
       exclude: /node_modules/,
       loader: 'babel'
-    }]
+    },
+      {
+        test: /\.css$/,
+        loader: 'style!css!autoprefixer?browser=last 2 versions'
+      }]
   },
   output: {
     path: __dirname + '/dist',
