@@ -1,0 +1,11 @@
+{
+  "name": "react-redux",
+  "version": "1.0.0",
+  "description": "An example Redux project using NodeJS and ReactJS",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": ["redux", "react", "node", "js"],
+  "author": "Nick M. Jaremek <nick13jaremek@gmail.com>",
+  "license": "ISC"
+}
