@@ -1,9 +1,11 @@
-import React from 'react/addons';
+import React from 'react';
+import ReactTestUtils from 'react-addons-test-utils';
+import ReactDOM from 'react-dom';
 import {List, Map} from 'immutable';
 import {Results} from '../../src/components/Results';
 import {expect} from 'chai';
 
-const {renderIntoDocument, scryRenderedDOMComponentsWithClass, Simulate} = React.addons.TestUtils;
+const {renderIntoDocument, scryRenderedDOMComponentsWithClass, Simulate} = ReactTestUtils;
 
 describe('Results', () => {
 
@@ -34,7 +36,7 @@ describe('Results', () => {
                tally={Map()}
                next={next} />
     );
-    Simulate.click(React.findDOMNode(component.refs.next));
+    Simulate.click(ReactDOM.findDOMNode(component.refs.next));
     expect(nextInvoked).to.equal(true);
   });
 
@@ -45,7 +47,7 @@ describe('Results', () => {
                tally={Map()} />
     );
 
-    const winner = React.findDOMNode(component.refs.winner);
+    const winner = ReactDOM.findDOMNode(component.refs.winner);
     expect(winner).to.be.ok;
     expect(winner.textContent).to.contain('Trainspotting');
   });
