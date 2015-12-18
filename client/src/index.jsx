@@ -1,7 +1,3 @@
-/**
- * Created by nickjaremek on 16/12/15.
- */
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Router, {Route} from 'react-router';

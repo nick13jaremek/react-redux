@@ -1,7 +1,3 @@
-/**
- * Created by nickjaremek on 16/12/15.
- */
-
 import {createStore} from 'redux';
 import reducer from './reducer';
 

@@ -1,7 +1,3 @@
-/**
- * Created by nickjaremek on 16/12/15.
- */
-
 import React from 'react';
 import ReactTestUtils from 'react-addons-test-utils';
 import ReactDOM from 'react-dom';

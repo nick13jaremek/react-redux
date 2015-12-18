@@ -1,7 +1,3 @@
-/**
- * Created by nickjaremek on 16/12/15.
- */
-
 import {setEntries, next, vote, INITIAL_STATE} from './core';
 
 export default function reducer(state = INITIAL_STATE, action) {

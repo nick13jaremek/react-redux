@@ -1,7 +1,3 @@
-/**
- * Created by nickjaremek on 16/12/15.
- */
-
 import {Map, fromJS} from 'immutable';
 import {expect} from 'chai';
 

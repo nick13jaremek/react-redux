@@ -1,7 +1,3 @@
-/**
- * Created by nickjaremek on 16/12/15.
- */
-
 import {List, Map} from 'immutable';
 
 export const INITIAL_STATE = Map();

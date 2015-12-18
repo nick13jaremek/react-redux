@@ -1,7 +1,3 @@
-/**
- * Created by nickjaremek on 17/12/15.
- */
-
 import {List, Map} from 'immutable';
 
 function setState(state, newState) {

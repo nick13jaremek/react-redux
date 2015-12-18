@@ -1,7 +1,3 @@
-/**
- * Created by nickjaremek on 16/12/15.
- */
-
 var webpack = require('webpack');
 
 module.exports = {
